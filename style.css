@@ -1,0 +1,76 @@
+ /* Basic styling for the form */
+ *{
+    margin: 0.3%;
+    padding: 0.4%;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f5;
+      text-align:center;
+     
+    
+  }
+  .container {
+      max-width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border: black solid;
+      background-color: #f2f2f2;
+    
+  }
+  .internal{
+    text-align: left;
+  }
+  h1 {
+      text-align: center;
+      color: #333;
+    
+  }
+  h4{
+    background-color: #fff;
+   padding: 2px;
+    text-align: left;
+    margin: 1px;
+  }
+  input[type="text"],
+  textarea {
+       resize: none;
+      padding: 3px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+  button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  button:hover {
+      background-color: #0056b3;
+  }
+  .knowledge{
+    text-align: left;
+  }
+  .footer{
+    text-align: center;
+  }
+  .sec{
+    padding: 0%;
+    margin:0%;
+  }
+  input[type=submit], input[type=reset] {
+    background-color: #bbd4da;
+    border: none;
+    color: rgb(1, 1, 1);
+    padding: 6px 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
